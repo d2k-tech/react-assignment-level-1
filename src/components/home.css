@@ -1,0 +1,99 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #ccc; 
+}
+
+
+.wrapper {
+    width: 100%;
+    padding: 3rem;
+   
+}
+
+.search_box {
+    display: flex;
+}
+
+input {
+    width: 15rem;
+    height: 2.6rem;
+    border-radius: 4px;
+    border: 1px solid rgb(151, 151, 151);
+    padding-inline: 1rem;
+}
+
+.search_icon {
+    width: 2.7rem;
+    height: 2.67rem;
+    border-radius: 4px;
+    border: 1px solid rgb(151, 151, 151);
+    border-left: none;
+    border-top-left-radius: none;
+    cursor: pointer;
+}
+
+.search_icon img {
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+th,
+td {
+    padding: 8px 12px;
+    border-top: 1px solid #d0cece; 
+    border-bottom: 1px solid #dddcdc; 
+    border-left: none;
+    border-right: none;
+    text-align: left;
+}
+
+th {
+    background-color: #FAFAFA;
+    border-top: none; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    float:right;
+   
+    margin: 20px 30px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    width: 2.7rem;
+    height: 2.4rem;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.pagination button.active {
+   
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.pagination button:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.arrow {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    gap: 8px;
+}
