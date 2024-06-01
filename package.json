@@ -1,10 +1,7 @@
-"homepage": "https://<username>.github.io/<repository>",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  // ... other scripts
-}
+
+
 {
+  "homepage": "https://github.com/SrivastavArchit/react-assignment-level-1.git",
   
   "name": "react-intern",
   "version": "0.1.0",
@@ -20,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
