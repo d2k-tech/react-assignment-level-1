@@ -1,73 +1,70 @@
-# React Assignment
+# Getting Started with Create React App
 
-In this assignment, you have to create a react application which provides following functionalities:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- list users in a table
-- search for a user
-- sort columns of table
-- pagination of users list
-- detail page for each user on a separate route
+## Available Scripts
 
-_Attention to detail and meeting all requirements is important in the project. Completing it in less time will not give you any preference._
+In the project directory, you can run:
 
-## **Task Overview**
+### `npm start`
 
-App functions:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Table:** The main screen should list all users in the table
-  - columns to show: `first_name`, `last_name`, `age`, `web` and `email`
-  - clicking on first name should open `Details` page on a separate route
-  - website links (`web`) should open in a new browser tab
-- **Search**: Allow to **search** using first_name or last_name
-- **Pagination**: Data should be paginated
-- **Sort**: All columns should be sortable in both ascending and descending order
-- **Detail**: Detail page should show all fields of user
-  - Clicking on **back** navigates back to Users table page
-- **Routing**: Table and Detail pages should be on their respective routes:
-  - Route for Table page should be `/users`
-  - Route for Detail page should `/users/<id>` (e.g: _/users/2_, if id of user is 2)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## API endpoint:
+### `npm test`
 
-_[User Data](https://d2k-static-assets.s3.ap-south-1.amazonaws.com/assignment-files/python-backend-assignment/users.json)_
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The user model has following fields:
+### `npm run build`
 
-```tsx
-User -
-  id -
-  first_name -
-  last_name -
-  age -
-  email -
-  web -
-  company_name -
-  city -
-  state -
-  zip;
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## **Instructions**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- [ ] Use **react** for this assignment.
-- [ ] **IMPORTANT**: Pagination, search and sorting should be implemented manually in the frontend only. **DO NOT** use 3rd party library or inbuilt feature for these.
-- [ ] Data should be _fetched_ from the [api provided](#api-endpoint) (and not stored in source code)
-- [ ] `yarn start` (or `npm run start` if using npm) should start the app
-- [ ] `yarn bulid` (or `npm run build` if using npm) should build the app
-- [ ] repo should not contain irrelevant folders/files like node_modules, build directories etc.
-- [ ] Follow the [wireframes](#wireframes) provided closely
-- [ ] Follow these steps for submission:
-  1. Fork the repository
-  1. Create issues and work on them in their respective branches
-  1. Complete the tasks while following all instructions
-  1. Create MRs and merge into main branch
-  1. When done, Test if all task requirements are met and instructions followed
-  1. Push code to github
-  1. Deploy and host the app using Github Pages
-  1. Reply to the same email with the **repo URL** and **hosted URL**
-- For any queries please email back the HR.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Wireframes:
+### `npm run eject`
 
-Wireframes for users table page _(left)_ and user detail page _(right)_
-![Wireframes for screens](screens-wireframes.png)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
