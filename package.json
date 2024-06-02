@@ -1,9 +1,9 @@
 
 
 {
-  "homepage": "https://SrivastavArchit.github.io/react-assignment-level-1",
+  "homepage":"https://SrivastavArchit.github.io/react-assignment-level-1",
   
-  "name": "react-intern",
+  "name": "react-assignment-level-1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
